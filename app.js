@@ -102,11 +102,12 @@ var t = 0;
 var n = 0;
 
 do{
-    console.log(n)
-    console.log(t)
+    
     n++;
     t +=n;
-}while(n<=100)
+    console.log(n)
+    console.log(t)
+}while(n<=99)
 
 console.log("la suma de los cien primeros numeros es: " + t);
 
